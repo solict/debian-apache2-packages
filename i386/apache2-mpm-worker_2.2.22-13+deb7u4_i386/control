@@ -1,0 +1,19 @@
+Package: apache2-mpm-worker
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: i386
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 4
+Depends: apache2.2-common (= 2.2.22-13+deb7u4), apache2.2-bin (= 2.2.22-13+deb7u4)
+Conflicts: apache2-common, apache2-mpm
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: Apache HTTP Server - high speed threaded model
+ Each Apache Multi-Processing Module provides a different "flavor" of
+ web server binary, compiled with a different processing model.
+ .
+ The worker MPM provides the default threaded implementation. It is
+ recommended especially for high-traffic sites because it is faster
+ and has a smaller memory footprint than the traditional prefork MPM.

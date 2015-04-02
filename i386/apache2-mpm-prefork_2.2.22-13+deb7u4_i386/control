@@ -1,0 +1,23 @@
+Package: apache2-mpm-prefork
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: i386
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 4
+Depends: apache2.2-common (= 2.2.22-13+deb7u4), apache2.2-bin (= 2.2.22-13+deb7u4)
+Conflicts: apache2-common, apache2-mpm
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: Apache HTTP Server - traditional non-threaded model
+ Each Apache Multi-Processing Module provides a different "flavor" of
+ web server binary, compiled with a different processing model.
+ .
+ The prefork MPM provides a non-threaded implementation using a variable
+ number of processes where each process handles only one connection
+ at the same time. It is not as fast as threaded models, but is considered to
+ be more stable. It is appropriate for sites that need to maintain
+ compatibility with non-thread-safe libraries, and is the best MPM for
+ isolating each request, so that a problem with a single request will not
+ affect any other.

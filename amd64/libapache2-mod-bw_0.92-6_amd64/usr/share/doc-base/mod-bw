@@ -1,0 +1,9 @@
+Document: mod-bw
+Title: mod-bw Documentation
+Author: Ivan Barrera A. (Bruce)
+Abstract: This manual describes how to install, configure
+ and use the bw apache2 module.
+Section: System/Security
+
+Format: text
+Files: /usr/share/doc/libapache2-mod-bw/mod_bw.txt.gz

@@ -1,0 +1,13 @@
+Package: libapache2-mod-suphp
+Source: suphp
+Version: 0.7.1-3
+Architecture: amd64
+Maintainer: Emmanuel Lacour <elacour@home-dn.net>
+Installed-Size: 86
+Depends: libc6 (>= 2.4), suphp-common (= 0.7.1-3), apache2.2-common
+Section: httpd
+Priority: optional
+Description: Apache2 module to run PHP scripts with the owner permissions
+ With the use of the suphp setuid root binary (from suphp-common package),
+ this Apache2 module change the uid of the process executing the PHP
+ interpreter to the owner of the php script.

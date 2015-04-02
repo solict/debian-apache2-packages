@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+  remove|abort-install)
+    a2dismod bw || true
+    ;;
+  upgrade|failed-upgrade|abort-upgrade|disappear|purge)
+    ;;
+  *)
+    echo "postrm called with unknown argument \`$1'" >&2
+    exit 0
+    ;;
+esac
+
+
+
+exit 0

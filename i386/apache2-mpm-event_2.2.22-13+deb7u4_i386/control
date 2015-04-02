@@ -1,0 +1,22 @@
+Package: apache2-mpm-event
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: i386
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 4
+Depends: apache2.2-common (= 2.2.22-13+deb7u4), apache2.2-bin (= 2.2.22-13+deb7u4)
+Conflicts: apache2-common, apache2-mpm
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: Apache HTTP Server - event driven model
+ Each Apache Multi-Processing Module provides a different "flavor" of
+ web server binary, compiled with a different processing model.
+ .
+ The event MPM is designed to allow more requests to be served
+ simultaneously by passing off some processing work to supporting
+ threads, freeing up the main threads to work on new requests. It is
+ especially suitable for sites that see extensive KeepAlive traffic.
+ .
+ This MPM is experimental and less tested than the worker and prefork MPMs.

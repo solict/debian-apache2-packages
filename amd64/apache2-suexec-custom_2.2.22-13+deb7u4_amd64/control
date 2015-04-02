@@ -1,0 +1,21 @@
+Package: apache2-suexec-custom
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: amd64
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 193
+Depends: libc6 (>= 2.3.4), apache2.2-common
+Conflicts: apache-common, apache2-suexec
+Replaces: apache2-suexec
+Provides: apache2-suexec
+Section: httpd
+Priority: extra
+Homepage: http://httpd.apache.org/
+Description: Configurable suexec program for Apache 2 mod_suexec
+ Provides a customizable version of the suexec helper program for mod_suexec.
+ This is not the version from upstream, but can be configured with a
+ configuration file.
+ .
+ If you do not need non-standard document root or userdir settings, it is
+ recommended that you use the standard suexec helper program from the
+ apache2-suexec package instead.

@@ -1,0 +1,21 @@
+Package: libapache2-mod-authnz-external
+Version: 3.2.4-2.1
+Architecture: amd64
+Maintainer: Hai Zaar <haizaar@haizaar.com>
+Installed-Size: 112
+Depends: libc6 (>= 2.2.5), apache2.2-common
+Recommends: pwauth
+Section: web
+Priority: optional
+Homepage: http://code.google.com/p/mod-auth-external
+Description: authenticate Apache against external authentication services
+ Mod_Auth_External can be used to quickly construct secure, reliable
+ authentication systems.  It can also be mis-used to quickly open gaping
+ holes in your security.  Read the documentation, and use with extreme
+ caution.
+ .
+ Notably, this module can be used to securely authenticate against PAM
+ (without exposing /etc/shadow file), using, for example, pwauth
+ authenticator.
+ .
+ This Package includes the mod-athnz-external Module for Apache Version 2.x

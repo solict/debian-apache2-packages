@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+
+
+case "$1" in
+    upgrade|failed-upgrade)
+		# Nothing to do here
+    ;;
+
+    deconfigure|remove)
+	# Disable jk if this is not an upgrade
+	a2dismod jk || true
+    ;;
+
+    *)
+	echo "$0 called with unknown argument \`$1'" >&2
+	exit 1
+    ;;
+esac
+
+exit 0

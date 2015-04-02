@@ -1,0 +1,12 @@
+Package: apache2-doc
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: all
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 12467
+Section: doc
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: Apache HTTP Server documentation
+ This package provides the documentation for Apache 2. For more details
+ see the apache2 package description.

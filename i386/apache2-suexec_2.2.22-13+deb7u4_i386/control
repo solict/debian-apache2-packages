@@ -1,0 +1,16 @@
+Package: apache2-suexec
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: i386
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 128
+Depends: libc6 (>= 2.3.6-6~), apache2.2-common
+Conflicts: apache-common, apache2-suexec
+Replaces: apache2-suexec
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: Standard suexec program for Apache 2 mod_suexec
+ Provides the standard suexec helper program for mod_suexec. This version is
+ compiled with document root /var/www and userdir suffix public_html. If you
+ need different settings, use the package apache2-suexec-custom.

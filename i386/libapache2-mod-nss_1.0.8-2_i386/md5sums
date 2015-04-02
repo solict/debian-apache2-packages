@@ -1,0 +1,8 @@
+f2a4333215eecb015f35472d25b77306  usr/lib/apache2/modules/mod_nss.so
+bd1bc09f3e7bf05c7b5ecfc8a6f579d6  usr/sbin/nss_pcache
+d4c09b6dbeb24a86f91d6bf80cf462e7  usr/share/doc/libapache2-mod-nss/README.Debian
+dfd5f469dc0c847bea85e82d723c2c74  usr/share/doc/libapache2-mod-nss/README.gz
+24e075c1370aabd1e8269580933c9109  usr/share/doc/libapache2-mod-nss/changelog.Debian.gz
+eeddeb3f345c63f47f62b65dd0874f23  usr/share/doc/libapache2-mod-nss/copyright
+5d0ef43f8b8630796d6fc4408a5c9d94  usr/share/doc/libapache2-mod-nss/mod_nss.html
+e5b28981f66049680b72690afd3e7917  usr/share/libapache2-mod-nss/gencert

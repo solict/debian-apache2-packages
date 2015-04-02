@@ -1,0 +1,23 @@
+libapache2-mod-jk for Debian
+----------------------------------
+
+Package works with Apache 2.x HTTP server.
+The documentation can be found in the libapache-mod-jk-doc package.
+
+At install, this module is enabled into existing Apache2 configuration.
+Default configuration is located here :
+  /etc/apache2/mods-available/jk.conf
+
+One default worker named ajp13_worker, which connects to the localhost on
+port 8009, is configured. If you need more workers or want to connect to
+a remote tomcat you have to modify the workers.properties file.
+
+By default, no webapp is mounted so you'll have to edit jk.conf
+to enable, at least, a JkMount directive for you webapp. 
+
+Please pay attention to global scope vs VirtualHost when setting JkMount
+(see #460398) as, by default, no mounts will be inherited from the
+global scope to any VirtualHost. See JkMountCopy option documentation
+for more information.
+
+ -- Wolfgang Baer <WBaer@gmx.de>  Thu, 23 Jun 2005 22:42:54 +0200

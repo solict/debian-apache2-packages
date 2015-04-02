@@ -1,0 +1,21 @@
+Package: apache2.2-bin
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: amd64
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 3740
+Depends: libapr1 (>= 1.4.2), libaprutil1 (>= 1.4.0), libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds, libaprutil1-ldap, libc6 (>= 2.4), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
+Conflicts: apache2.2-common (<< 2.2.11-5~)
+Replaces: apache2.2-common (<< 2.2.14-2~)
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: Apache HTTP Server common binary files
+ The Apache Software Foundation's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ This package contains all binaries but no configuration or support scripts.
+ To get a stand-alone server, you need to install one of the apache2-mpm-*
+ packages, such as worker or prefork. Other packages like gnome-user-share
+ may bring their own Apache configuration, though.

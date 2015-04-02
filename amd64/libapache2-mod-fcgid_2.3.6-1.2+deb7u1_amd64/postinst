@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+	test ! -e /etc/apache2/mods-enabled/fastcgi.load \
+	  -a ! -e /etc/apache2/mods-enabled/fcgid.load && \
+	   a2enmod fcgid
+	chown www-data /var/lib/apache2/fcgid
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+
+
+exit 0

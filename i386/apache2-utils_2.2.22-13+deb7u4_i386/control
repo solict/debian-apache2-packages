@@ -1,0 +1,25 @@
+Package: apache2-utils
+Source: apache2
+Version: 2.2.22-13+deb7u4
+Architecture: i386
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 287
+Depends: libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.4), libssl1.0.0 (>= 1.0.0)
+Conflicts: apache-common (<< 1.3.28.0.1-1)
+Replaces: apache-utils (<< 1.3.33-4), apache2-common, apache2.2-bin (<< 2.2.22-1~)
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/
+Description: utility programs for webservers
+ Provides some add-on programs useful for any webserver.  These include:
+  - ab (Apache benchmark tool)
+  - logresolve (Resolve IP addresses to hostname in logfiles)
+  - htpasswd (Manipulate basic authentication files)
+  - htdigest (Manipulate digest authentication files)
+  - dbmmanage (Manipulate basic authentication files in DBM format, using perl)
+  - htdbm (Manipulate basic authentication files in DBM format, using APR)
+  - rotatelogs (Periodically stop writing to a logfile and open a new one)
+  - split-logfile (Split a single log including multiple vhosts)
+  - checkgid (Checks whether the caller can setgid to the specified group)
+  - check_forensic (Extract mod_log_forensic output from Apache log files)
+  - httxt2dbm (Generate dbm files for use with RewriteMap)

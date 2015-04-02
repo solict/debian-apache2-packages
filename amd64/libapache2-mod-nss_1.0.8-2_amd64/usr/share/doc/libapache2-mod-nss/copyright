@@ -1,0 +1,23 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+UPstream-name: mod_nss
+Source: http://directory.fedoraproject.org/sources/
+
+Files: *
+Copyright: 2001-2004 The Apache Software Foundation
+License: Apache-2.0
+
+Files: nss_expr_parse.[ch]
+Copyright: 1984-2003 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: debian/*
+Copyright: © 2008 Michele Baldessari <michele@acksyn.org>
+License: GPL-2+ or Apache-2.0
+
+License: GPL-2+
+ On Debian machines the full text of the GNU General Public License in
+ the file /usr/share/common-licenses/GPL-2
+
+License:Apache-2.0
+ On Debian machines the full text of the Apache 2.0 in
+ the file /usr/share/common-licenses/Apache-2.0.

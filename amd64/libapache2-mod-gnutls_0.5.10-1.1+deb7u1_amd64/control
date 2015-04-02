@@ -1,0 +1,13 @@
+Package: libapache2-mod-gnutls
+Source: mod-gnutls
+Version: 0.5.10-1.1+deb7u1
+Architecture: amd64
+Maintainer: Jack Bates <ms419@freezone.co.uk>
+Installed-Size: 123
+Depends: libapr-memcache0 (>= 0.7.0), libc6 (>= 2.2.5), libgnutls26 (>= 2.12.17-0)
+Section: httpd
+Priority: extra
+Homepage: http://www.outoforder.cc/projects/apache/mod_gnutls/
+Description: Apache module for SSL and TLS encryption with GnuTLS
+ mod_gnutls provides SSL 3.0, TLS 1.0, and TLS 1.1 encryption with the GnuTLS
+ library. It's similar in purpose to mod_ssl, but doesn't use OpenSSL.

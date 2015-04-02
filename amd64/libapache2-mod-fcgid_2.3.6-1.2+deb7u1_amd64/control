@@ -1,0 +1,18 @@
+Package: libapache2-mod-fcgid
+Version: 1:2.3.6-1.2+deb7u1
+Architecture: amd64
+Maintainer: Tatsuki Sugiura <sugi@nemui.org>
+Installed-Size: 279
+Depends: libc6 (>= 2.3), apache2.2-common
+Section: httpd
+Priority: optional
+Homepage: http://httpd.apache.org/mod_fcgid/
+Description: an alternative module compat with mod_fastcgi
+ mod_fcgid is a high performance alternative to mod_cgi or mod_cgid,
+ which starts a sufficient number instances of the CGI program to handle
+ concurrent requests, and these programs remain running to handle further
+ incoming requests. It is favored by the PHP developers, for example,
+ as a preferred alternative to running mod_php in-process, delivering
+ very similar performance.
+ .
+ It is a binary compatibility alternative to Apache module mod_fastcgi.
