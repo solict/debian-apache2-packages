@@ -1,0 +1,16 @@
+Package: libapache2-mod-passenger
+Source: ruby-passenger
+Version: 4.0.53-1
+Architecture: amd64
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 788
+Depends: libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), apache2-api-20120211, ruby-passenger (= 4.0.53-1)
+Section: httpd
+Priority: optional
+Homepage: https://www.phusionpassenger.com/
+Description: Rails and Rack support for Apache2
+ Phusion Passenger — a.k.a. mod_rails or mod_rack — makes
+ deployment of Ruby web applications, such as those built on the
+ revolutionary Ruby on Rails web framework, a breeze.
+ .
+ This package contains the Apache 2 module required by Phusion Passenger.

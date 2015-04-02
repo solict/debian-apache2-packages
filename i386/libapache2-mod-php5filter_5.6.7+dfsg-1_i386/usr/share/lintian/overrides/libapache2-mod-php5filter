@@ -1,0 +1,7 @@
+libapache2-mod-php5filter: package-contains-empty-directory usr/lib/php5/20131226/
+libapache2-mod-php5filter: spelling-error-in-binary * ment meant
+libapache2-mod-php5filter: spelling-error-in-binary * taht that
+libapache2-mod-php5filter: embedded-library usr/lib/apache2/modules/libphp5filter.so: file
+libapache2-mod-php5filter: apache2-module-does-not-ship-load-file libphp5filter
+libapache2-mod-php5filter: non-standard-apache2-module-package-name libapache2-mod-php5filter != libapache2-libphp5filter
+libapache2-mod-php5filter: embedded-library ./usr/lib/apache2/modules/libphp5filter.so: file

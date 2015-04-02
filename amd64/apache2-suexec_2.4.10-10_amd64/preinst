@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper dir_to_symlink /usr/share/doc/apache2-suexec apache2-suexec-pristine 2.4.1-1~ -- "$@"
+# End automatically added section

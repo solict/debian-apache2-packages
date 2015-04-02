@@ -1,0 +1,5 @@
+e90fa56508e0400e8cdeb22c68b5ad72  usr/lib/apache2/modules/libphp5filter.so
+6ca595a320107e1109c4aee99cc18a0e  usr/share/bug/libapache2-mod-php5filter/control
+13a1d8af99ed6e802b34e102b1c77612  usr/share/bug/libapache2-mod-php5filter/script
+7e01f85d2fbed6d6965ed478b45917dc  usr/share/lintian/overrides/libapache2-mod-php5filter
+d41d8cd98f00b204e9800998ecf8427e  usr/share/php5/sapi/apache2filter

@@ -1,0 +1,6 @@
+26c27bd0aa427b861c26468f95eb4640  usr/lib/apache2/suexec-custom
+95e3d3f851ae1e8e98c4bd9a61a8ce54  usr/share/doc/apache2-suexec-custom/changelog.Debian.gz
+32b5c6e09fdfcf185b839766f7de7e5b  usr/share/doc/apache2-suexec-custom/changelog.gz
+aabe4a8a8c8bbbcce2cfd23f550ab3b9  usr/share/doc/apache2-suexec-custom/copyright
+b72009181478e44a78e43cad4e041a5d  usr/share/lintian/overrides/apache2-suexec-custom
+fa27842d6be0dd88e72947b647ad23d4  usr/share/man/man8/suexec-custom.8.gz

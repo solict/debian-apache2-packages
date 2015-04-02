@@ -1,0 +1,3 @@
+# This false alarm is due to GCC 4.7 -O2 optimisation (unprotected: memset),
+# see: http://bugs.debian.org/673112
+libapache2-mod-bw: hardening-no-fortify-functions usr/lib/apache*/modules/mod_bw.so

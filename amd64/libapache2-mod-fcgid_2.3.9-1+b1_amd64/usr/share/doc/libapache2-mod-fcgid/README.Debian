@@ -1,0 +1,10 @@
+libapache2-mod-fcgid for Debian
+------------------------------
+
+ On Debian System, just put a file has .fcgi suffix in directory with ExecCGI,
+ and you can run the scripts as FastCGI.
+
+ If you need more information, visit website of upstream author;
+ http://fastcgi.coremail.cn/
+
+ -- Tatsuki Sugiura <sugi@nemui.org>, Wed, 21 Jul 2004 06:38:33 +0900

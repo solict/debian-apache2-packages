@@ -1,0 +1,16 @@
+Package: libapache2-mod-nss
+Version: 1.0.10-3
+Architecture: amd64
+Maintainer: Debian 389ds Team <pkg-fedora-ds-maintainers@lists.alioth.debian.org>
+Installed-Size: 330
+Depends: libnss3-tools, apache2-api-20120211, libc6 (>= 2.14), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14)
+Section: web
+Priority: extra
+Homepage: http://fedorahosted.org/mod_nss
+Description: NSS-based SSL module for Apache2
+ This Apache module provides strong cryptography for the Apache 2.0 webserver
+ via the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS
+ v1) protocols by the help of the SSL/TLS implementation library NSS
+ .
+ This module is based heavily on the mod_ssl package. In fact, it's more
+ a conversion than anything else.

@@ -1,0 +1,14 @@
+Package: apache2-suexec
+Source: apache2
+Version: 2.4.10-10
+Architecture: amd64
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Installed-Size: 23
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: apache2-suexec-pristine (= 2.4.10-10)
+Section: oldlibs
+Priority: extra
+Homepage: http://httpd.apache.org/
+Description: transitional package for apache2-suexec-pristine
+ This is a transitional package for apache2-suexec-pristine, and can be safely
+ removed after the installation is complete.

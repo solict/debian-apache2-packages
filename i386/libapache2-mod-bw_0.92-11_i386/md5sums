@@ -1,0 +1,8 @@
+06bb19bc21b9b5f711cb6ff91fcd6368  usr/lib/apache2/modules/mod_bw.so
+e48204bcea31bbe251e24082ed4a2112  usr/share/doc-base/mod-bw
+f104ae8a0da91f47f643860074a5ce11  usr/share/doc/libapache2-mod-bw/TODO
+23f03ef90e978e0ea857d112fe861dfe  usr/share/doc/libapache2-mod-bw/changelog.Debian.gz
+840f6f984bf6c3a006e3133042826f16  usr/share/doc/libapache2-mod-bw/changelog.gz
+77392b0fead812578a6e066b402b6e5b  usr/share/doc/libapache2-mod-bw/copyright
+20e3cfe8d881cd22a163d603058fc933  usr/share/doc/libapache2-mod-bw/mod_bw.txt.gz
+725acd18e758e34301f3eeb8adc779cc  usr/share/lintian/overrides/libapache2-mod-bw
