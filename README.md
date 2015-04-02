@@ -1,4 +1,4 @@
-# debian-apache2-packages
+# debian-packages-apache
 The original unpacked packages available at http://packages.debian.org
 
 Each branch of the repository corresponds to a major version/branch of Debian, currently:
